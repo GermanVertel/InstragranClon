@@ -1,0 +1,38 @@
+# Xcode
+DerivedData/
+build/
+xcuserdata/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+
+# Swift Package Manager
+Packages/
+.swiftpm/
+.build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Acciones de Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Archivos temporales y de sistema
+*.DS_Store
+*.swp
+*.lock
+*.tmp
+
+# Archivos de playground
+timeline.xctimeline
+playground.xcworkspace
+
+# Archivos de API Keys o secretos
+Secrets.plist
+*.env
