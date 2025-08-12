@@ -11,7 +11,7 @@ import SwiftUI
 struct InstragranClonApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FeedCell()
         }
     }
 }
